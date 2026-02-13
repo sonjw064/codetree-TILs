@@ -1,5 +1,7 @@
-a = int(input())
-b = int(input())
-c = int(input())
+arr = input().split()
+a = int(arr[0])
+b = int(arr[1])
+c = input()
 
-print(a, b,)
+
+print(a, b, c)
