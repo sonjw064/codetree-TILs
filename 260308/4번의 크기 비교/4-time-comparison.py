@@ -1,0 +1,11 @@
+A = int(input())
+arr = input().split()
+B = int(arr[0])
+C = int(arr[1])
+D = int(arr[2])
+E = int(arr[3])
+
+print(int(A > B))
+print(int(A > C))
+print(int(A > D))
+print(int(A > E))
