@@ -5,3 +5,4 @@ S_age = int(S_age)
 
 if (F_age >= 19 and F_gender == "M" ) or (S_age >= 19 and S_gender == "M") :
     print("1")
+else: print("0")
