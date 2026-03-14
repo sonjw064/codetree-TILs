@@ -5,7 +5,9 @@ if A < B and A < C :
         print(B)
     else: print(C)
 else :
-    if (B < C) and (A < C):
-        print(A)
-    elif (C < B) and (A < B):
-        print(A)
+    if B < C :
+        if A < C:
+            print(A)
+    elif C < B:
+        if A < B :
+            print(A)
