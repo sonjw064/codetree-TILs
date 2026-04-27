@@ -3,7 +3,7 @@ n = int(input())
 check = True
 
 for i in range(2, n):
-    if i % n == 0:
+    if n % i == 0:
          check = False
         
         
